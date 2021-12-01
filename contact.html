@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>svaya contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://api.fontshare.com/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="navigation-bar-section">
+                <div class="maintitle-logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>    
+                </div>
+                <div class="ham-btn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <div class="navbar">
+                    <ul class="navigation">
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="solution.html">Solutions</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="career.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <nav class="navigation-bar">
+                    <ul class="navigation">
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="solution.html">Solutions</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="career.html">Careers</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </div>    
+    </header>
+    <div class="banner-wrapper">
+        <div id="banner-contact">
+            <div class="container">
+                <div class="mainheading-section">
+                    <div class="text-center">
+                        <h1 class="h1">Contact</h1>
+                    </div>
+                </div>
+                <div class="row contact-row">
+                    <div class="col-lg-4">
+                        <div class="contact-card">
+                            <div class="contact-image">
+                                <img src="images/email.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@svayarobotics.com<br>
+                                    sales@svayarobotics.com<br>
+                                    careers@svayarobotics.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-card">
+                            <div class="contact-image">
+                                <img src="images/phone.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 40 2334 7832<br>
+                                    +91 40 2339 7901</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-card">
+                            <div class="contact-image">
+                                <img src="images/address.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Address</h4>
+                                <p>203, 2nd Floor, Pavani Annexe, Road No 2, Banjara Hills, Hyderabad, Telangana-500034.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactus-section">
+        <div class="container">
+            <div class="text-center">
+                <h3>Get in touch</h3>
+            </div>
+            <div class="contactus-form">
+                <form>
+                    <div class="row justify-content-center appform-row">
+                        <div class="col-lg-8">
+                            <select name="reason" id="cars">
+                                <option value="">What would you like to contact us about?</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center appform-row">
+                        <div class="col-lg-4">
+                            <input type="text" id="fname" name="fname" placeholder="First Name">
+                        </div>
+                        <div class="col-lg-4">
+                            <input type="text" id="lname" name="lname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center appform-row">
+                        <div class="col-lg-4">
+                            <input type="text" id="cname" name="cname" placeholder="Company Name">
+                        </div>
+                        <div class="col-lg-4">
+                            <input type="email" id="cemail" name="cemail" placeholder="Company Email">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center appform-row">
+                        <div class="col-lg-8">
+                            <input type="text" id="phone" name="phone" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center appform-row">
+                        <div class="col-lg-8">
+                            <textarea id="message" name="message" rows="3" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center appform-row">
+                        <div class="col-lg-2 captcha">
+                            <div class="g-recaptcha" data-sitekey="YOUR SITE KEY" style="transform:scale(0.6);-webkit-transform:scale(0.6);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center appform-submitrow">
+                        <div class="col-lg-2">
+                            <button type="button" class="regular-btn-1">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-border"></div>
+
+    <div class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-heading">
+                <h3>Subscribe to our Newsletter</h3>
+            </div>
+            <form action="/action_page.php">
+                <div class="newsletter-form">
+                    <div class="form-item">
+                        <input type="text" id="name" name="name" placeholder="Full Name">
+                    </div>
+                    <div class="form-item">
+                        <input type="email" id="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-item">
+                        <input type="text" id="phone" name="phone" placeholder="Phone">
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="regular-btn-1">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">                
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="maintitle-logo">
+                            <a href="index.html">
+                                <img src="images/logo2.png" alt="logo">
+                            </a>    
+                        </div>
+                        <nav class="footer-navigation-bar">
+                            <ul class="navigation">
+                                <li><a href="product.html">Product</a></li>
+                                <li><a href="solution.html">Solutions</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="career.html">Careers</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>EMAIL US</p>
+                        <span class="email">info@svayarobotics.com</span>
+                        <div class="socialmedia-box">
+                            <button class="round-btn">
+                                <svg width="15" height="15" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.71875 9.85767L9.15625 6.98267H6.375V5.10767C6.375 4.29517 6.75 3.54517 8 3.54517H9.28125V1.07642C9.28125 1.07642 8.125 0.857666 7.03125 0.857666C4.75 0.857666 3.25 2.26392 3.25 4.76392V6.98267H0.6875V9.85767H3.25V16.8577H6.375V9.85767H8.71875Z" fill="white"/>
+                                </svg>                            
+                            </button>
+                            <button class="round-btn">
+                                <svg width="15" height="15" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.3438 3.60767C14.9688 3.13892 15.5312 2.57642 15.9688 1.92017C15.4062 2.17017 14.75 2.35767 14.0938 2.42017C14.7812 2.01392 15.2812 1.38892 15.5312 0.607666C14.9062 0.982666 14.1875 1.26392 13.4688 1.42017C12.8438 0.763916 12 0.388916 11.0625 0.388916C9.25 0.388916 7.78125 1.85767 7.78125 3.67017C7.78125 3.92017 7.8125 4.17017 7.875 4.42017C5.15625 4.26392 2.71875 2.95142 1.09375 0.982666C0.8125 1.45142 0.65625 2.01392 0.65625 2.63892C0.65625 3.76392 1.21875 4.76392 2.125 5.35767C1.59375 5.32642 1.0625 5.20142 0.625 4.95142V4.98267C0.625 6.57642 1.75 7.88892 3.25 8.20142C3 8.26392 2.6875 8.32642 2.40625 8.32642C2.1875 8.32642 2 8.29517 1.78125 8.26392C2.1875 9.57642 3.40625 10.5139 4.84375 10.5452C3.71875 11.4202 2.3125 11.9514 0.78125 11.9514C0.5 11.9514 0.25 11.9202 0 11.8889C1.4375 12.8264 3.15625 13.3577 5.03125 13.3577C11.0625 13.3577 14.3438 8.38892 14.3438 4.04517C14.3438 3.88892 14.3438 3.76392 14.3438 3.60767Z" fill="white"/>
+                                </svg>
+                            </button>
+                            <button class="round-btn">
+                                <svg width="15" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.125 14.8574V5.51367H0.21875V14.8574H3.125ZM1.65625 4.26367C2.59375 4.26367 3.34375 3.48242 3.34375 2.54492C3.34375 1.63867 2.59375 0.888672 1.65625 0.888672C0.75 0.888672 0 1.63867 0 2.54492C0 3.48242 0.75 4.26367 1.65625 4.26367ZM13.9688 14.8574H14V9.73242C14 7.23242 13.4375 5.29492 10.5 5.29492C9.09375 5.29492 8.15625 6.07617 7.75 6.79492H7.71875V5.51367H4.9375V14.8574H7.84375V10.2324C7.84375 9.01367 8.0625 7.85742 9.5625 7.85742C11.0625 7.85742 11.0938 9.23242 11.0938 10.3262V14.8574H13.9688Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-section">
+                <div>
+                    <a href="#">Privacy Policy</a><span>|</span><a href="#">Terms and Conditions</a><span>|</span><a href="#">Cookies Policy</a>
+                </div>
+                <div>
+                    <p>Copyright © 2021 Svaya Robotics Pvt. Ltd. All rights reserved.</p>
+                </div>
+            </div>
+        </div>    
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

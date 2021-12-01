@@ -1,0 +1,209 @@
+@media screen and (max-width: 576px) {
+    .h1{font-size: 64px;}
+    .h2{font-size: 36px;}
+    .h3{font-size: 24px;}
+    .txt-btn::after{bottom: -5px}
+
+    .navigation-bar{display: none;}
+    .ham-btn{margin: 0 0 0 auto; height: 50px; width: 50px; padding: 10px; display: flex; justify-content: space-evenly; align-items: center; flex-direction: column; cursor: pointer; background: transparent;}
+    .ham-btn .bar1, .ham-btn .bar2, .ham-btn .bar3{height: 2px; width: 100%; display: block; background: #DADADA; transition: 0.3s all;}
+    .close-btn{position: relative; margin: 0 0 0 auto; height: 50px; width: 50px; padding: 10px; display: flex; justify-content: space-evenly; align-items: center; flex-direction: column; cursor: pointer; background: transparent;}
+    .close-btn .bar1{-webkit-transform: rotate(-45deg) translate(-3.5px, 3.5px); transform: rotate(-45deg) translate(-3.5px, 3.5px);}
+    .close-btn .bar2{display: none;}
+    .close-btn .bar3{-webkit-transform: rotate(45deg) translate(-3.5px, -3.5px); transform: rotate(45deg) translate(-3.5px, -3.5px);}
+
+    .open-navbar{position: absolute; top: 82px; right: 0; display: flex; justify-content: center; align-items: center; z-index: 100; background: #DADADA; box-shadow: 0 0 5px #323232; transition: all 1s ease-in;}
+    .open-navbar .navigation{list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
+    .open-navbar li{padding: 1em 0;}
+    .open-navbar li a{font-weight: 500; line-height: 19px; text-align: center; text-decoration: none; display: block; color: #111111;}
+
+    .banner-section{min-height: 500px;}
+    #banner-contact .mainheading-section{padding: 30px 0 20px;}
+    #banner-contact .contact-row{margin-bottom: 30px;}
+    #banner-contact .row .col-lg-4{margin-bottom: 20px;}
+    .banner-section .mainheading-section{padding: 155px 0 155px;}
+
+    .aboutus-section{margin: 30px 0;}
+    .aboutus-section .row .col-md-4{text-align: center; margin-top: 30px;}
+
+    .product-section{margin-bottom: 30px;}
+
+    .product-section img{width: 100%; height: auto;}
+
+    .feature-section{margin-bottom: 0;}
+    .feature-section .row .col-lg-4{margin-bottom: 20px;}
+    
+    .howitworks-section img{width: 100%; height: auto;}
+    .howitworks-section .container{padding: 30px 0}
+    .howitworks-section .row .col-lg-5{padding: 0 30px; margin-bottom: 20px;}
+    .howitworks-image .play-button{transform:translate(-42px,-45px);}
+
+    .success-section img{width: 100%; height: auto;}
+    .success-section{margin: 30px 0;}
+    .success-section .success-label{margin-bottom: 10px;}
+    .success-section .success-row{flex-wrap: wrap;}
+    .success-row .col-lg-5{text-align: center;}
+    .success-section .success-text{margin-bottom: 10px;}
+    .success-section .success-navigation{position: absolute; margin: 0 auto; left: 0; right: 0; text-align: center; bottom: -35px;}
+
+    #latestinsight-solution {margin-bottom: 30px;}
+    .latestinsight-section{margin-top: 60px;}
+    .latestinsight-section .latestnews-heading{margin-bottom: 20px; flex-wrap: wrap;}
+    .latestinsight-section .latestinsight-navigation{margin-top: 20px;}
+
+    .career-section img{width: 100%; height: auto;}
+    .career-section{margin: 30px 0;}
+    .career-section .row .col-lg-5{margin-bottom: 20px;}
+
+    .newsletter-section .newsletter-heading h3{font-size: 24px; text-align: center;}
+    .newsletter-section .newsletter-form{justify-content: center; flex-wrap: wrap;}
+    .newsletter-section .form-item{margin-bottom: 10px;}
+
+    .footer-section .maintitle-logo{margin: 30px 0 20px;}
+    .footer-section p{margin: 30px 0 10px;}
+    .footer-section .socialmedia-box{margin: 20px 0 30px;}
+    .copyright-section{flex-wrap: wrap; margin: 30px 0;}
+
+    .about-section{margin: 30px 0;}
+    .about-section .row .col-lg-3{margin-bottom: 20px;}
+
+    .bcg-change{padding: 30px 0;}
+    .bcg-change .tech-heading{margin-bottom: 20px;}
+    .bcg-change .row .col-lg-4{margin-bottom: 20px;}
+
+    .platform-section{margin: 30px 0;}
+    .platform-section .row .col-lg-3{margin-bottom: 20px;}
+
+    .da-image{margin: 30px 0;}
+
+    .automation-section .automation-heading{margin-bottom: 20px;}
+    .automation-section .automation-row{margin-bottom: 0;}
+    .automation-section .row .col-lg-4{margin-bottom: 20px;}
+
+    .application-section{margin: 30px 0;}
+    .application-section .app-row{margin-bottom: 0;}
+    .application-section .row .col-lg-3{margin-bottom: 20px;}
+    .application-section .app-card{margin-bottom: 10px;}
+
+    .casestudy-section {padding: 30px 0;}
+    .casestudy-section .casestudy-row{margin-bottom: 0;}
+    .casestudy-section .row .col-lg-4{margin-bottom: 20px;}
+    .casestudy-section .casestudy-card .casestudy-text{margin-top: 10px;}
+    .casestudy-card .txt-btn{margin-top: 0;}
+
+    .upper-section{margin: 30px 0;}
+
+    .applynow-section{margin: 30px 0;}
+    .applynow-section .applynow-text{margin: 10px 0 20px;}
+    .application-form .appform-row{margin-bottom: 0;}
+    .application-form .appform-submitrow{margin-top: 10px;}
+    .application-form .captcha{margin-left: 0;}
+
+    .contactus-section{padding: 30px 0;}
+    .contactus-form .appform-row{margin-bottom: 0;}
+}
+
+@media screen and (max-width: 768px) and (min-width: 577) {
+    .h1{font-size: 64px;}
+    .h2{font-size: 36px;}
+    .h3{font-size: 24px;}
+    .txt-btn::after{bottom: -5px}
+
+    .navigation-bar{display: none;}
+    .ham-btn{margin: 0 0 0 auto; height: 50px; width: 50px; padding: 10px; display: flex; justify-content: space-evenly; align-items: center; flex-direction: column; cursor: pointer; background: #DADADA;}
+    .ham-btn .bar1, .ham-btn .bar2, .ham-btn .bar3{height: 2px; width: 100%; display: block; background: #111111; transition: 0.3s all;}
+    .close-btn{position: relative; margin: 0 0 0 auto; height: 50px; width: 50px; padding: 10px; display: flex; justify-content: space-evenly; align-items: center; flex-direction: column; cursor: pointer; background: #DADADA;}
+    .close-btn .bar1{-webkit-transform: rotate(-45deg) translate(-3.5px, 3.5px); transform: rotate(-45deg) translate(-3.5px, 3.5px);}
+    .close-btn .bar2{display: none;}
+    .close-btn .bar3{-webkit-transform: rotate(45deg) translate(-3.5px, -3.5px); transform: rotate(45deg) translate(-3.5px, -3.5px);}
+
+    .open-navbar{position: absolute; top: 82px; right: 0; display: flex; justify-content: center; align-items: center; z-index: 100; background: #DADADA; box-shadow: 0 0 5px #323232; transition: all 1s ease-in;}
+    .open-navbar .navigation{list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
+    .open-navbar li{padding: 1em 0;}
+    .open-navbar li a{font-weight: 500; line-height: 19px; text-align: center; text-decoration: none; display: block; color: #111111;}
+
+    .banner-section{min-height: 500px;}
+    #banner-contact .mainheading-section{padding: 30px 0 20px;}
+    #banner-contact .contact-row{margin-bottom: 30px;}
+    #banner-contact .row .col-lg-4{margin-bottom: 20px;}
+    .banner-section .mainheading-section{padding: 55px 0 155px;}
+
+    .aboutus-section{margin: 30px 0;}
+    .aboutus-section .row .col-md-4{text-align: center; margin-top: 30px;}
+
+    .product-section{margin-bottom: 30px;}
+
+    .product-section img{width: 100%; height: auto;}
+
+    .feature-section{margin-bottom: 0;}
+    .feature-section .row .col-lg-4{margin-bottom: 20px;}
+    
+    .howitworks-section img{width: 100%; height: auto;}
+    .howitworks-section .container{padding: 30px 0}
+    .howitworks-section .row .col-lg-5{padding: 0 30px; margin-bottom: 20px;}
+    .howitworks-image .play-button{transform:translate(-42px,-45px);}
+
+    .success-section img{width: 100%; height: auto;}
+    .success-section{margin: 30px 0;}
+    .success-section .success-label{margin-bottom: 10px;}
+    .success-section .success-row{flex-wrap: wrap;}
+    .success-row .col-lg-5{text-align: center;}
+    .success-section .success-text{margin-bottom: 10px;}
+    .success-section .success-navigation{position: absolute; margin: 0 auto; left: 0; right: 0; text-align: center; bottom: -35px;}
+
+    #latestinsight-solution {margin-bottom: 30px;}
+    .latestinsight-section{margin-top: 60px;}
+    .latestinsight-section .latestnews-heading{margin-bottom: 20px;}
+    .latestinsight-section .latestinsight-navigation{margin-top: 20px;}
+
+    .career-section img{width: 100%; height: auto;}
+    .career-section{margin: 30px 0;}
+    .career-section .row .col-lg-5{margin-bottom: 20px;}
+
+    .newsletter-section .newsletter-heading h3{font-size: 24px; text-align: center;}
+    .newsletter-section .newsletter-form{justify-content: center; flex-wrap: wrap;}
+    .newsletter-section .form-item{margin-bottom: 10px;}
+
+    .footer-section .maintitle-logo{margin: 30px 0 20px;}
+    .footer-section p{margin: 30px 0 10px;}
+    .footer-section .socialmedia-box{margin: 20px 0 30px;}
+    .copyright-section{flex-wrap: wrap; margin: 30px 0;}
+
+    .about-section{margin: 30px 0;}
+    .about-section .row .col-lg-3{margin-bottom: 20px;}
+
+    .bcg-change{padding: 30px 0;}
+    .bcg-change .tech-heading{margin-bottom: 20px;}
+    .bcg-change .row .col-lg-4{margin-bottom: 20px;}
+
+    .platform-section{margin: 30px 0;}
+    .platform-section .row .col-lg-3{margin-bottom: 20px;}
+
+    .da-image{margin: 30px 0;}
+
+    .automation-section .automation-heading{margin-bottom: 20px;}
+    .automation-section .automation-row{margin-bottom: 0;}
+    .automation-section .row .col-lg-4{margin-bottom: 20px;}
+
+    .application-section{margin: 30px 0;}
+    .application-section .app-row{margin-bottom: 0;}
+    .application-section .row .col-lg-3{margin-bottom: 20px;}
+    .application-section .app-card{margin-bottom: 10px;}
+
+    .casestudy-section {padding: 30px 0;}
+    .casestudy-section .casestudy-row{margin-bottom: 0;}
+    .casestudy-section .row .col-lg-4{margin-bottom: 20px;}
+    .casestudy-section .casestudy-card .casestudy-text{margin-top: 10px;}
+    .casestudy-card .txt-btn{margin-top: 0;}
+
+    .upper-section{margin: 30px 0;}
+
+    .applynow-section{margin: 30px 0;}
+    .applynow-section .applynow-text{margin: 10px 0 20px;}
+    .application-form .appform-row{margin-bottom: 0;}
+    .application-form .appform-submitrow{margin-top: 10px;}
+    .application-form .captcha{margin-left: 0;}
+
+    .contactus-section{padding: 30px 0;}
+    .contactus-form .appform-row{margin-bottom: 0;}
+}
